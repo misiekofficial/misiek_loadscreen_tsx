@@ -17,7 +17,6 @@ declare namespace NodeJS {
 }
 
 declare global {
-    var openDevTools: () => void;
     var nuiHandoverData: () => void;
     var invokeNative: (native: string, ...arg: string[]) => void;
 
@@ -26,10 +25,6 @@ declare global {
 
 declare type ChildrenProps = { children?: React.ReactNode };
 declare type ChildrenfulReactFC = React.FC<ChildrenProps>;
-
-declare namespace Intl {
-    function getCanonicalLocales(locales: string | string[]): string[];
-}
 
 declare module '*.bmp' {
     const src: string;
