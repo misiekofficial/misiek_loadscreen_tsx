@@ -7,7 +7,7 @@ import {GameLoadingState} from "../../services/loadscreen/loadstate.service";
 
 const preparingTitleNode = (
     <ul>
-        <li>Preparing FxDK</li>
+        <li>Connecting to SERVERNAME</li>
         <li>Unwrapping singularity</li>
         <li>Merging black holes</li>
         <li>Asserting dominance</li>
@@ -22,7 +22,7 @@ const preparingTitleNode = (
 
 const readyTitleNode = (
     <ul>
-        <li>FxDK is ready!</li>
+        <li>Connect is ready!</li>
     </ul>
 );
 
